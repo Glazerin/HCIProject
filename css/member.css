@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+}
+
+#navbar img{
+    width: 3.22875rem;
+    height: 4.375rem;
+}
+
+#navbar{
+   display: flex; 
+   padding: 0rem 4.375rem;
+   justify-content: space-between;
+   background-color: black;
+   align-items: center;
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 4.375rem;
+    align-items: center;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+#navbar a:hover{
+    color: #818FB4;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20;
+    align-items: center;
+    height: 4.375rem;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-image: url('../asset/front_promo.jpeg');
+}
+
+#form{
+    background-color: #ffffffcc;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 37.75rem;
+    height: 38rem;
+    margin-left: 28%;
+}
+
+#title{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 30px;
+    color: #363062;
+    text-align: center;
+    justify-content: center;
+}
+
+hr{
+    color: #F5E8C7;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border: 1.5px solid #F5E8C7;
+    border-radius: 1px;
+}
+
+input{
+    border: 2px solid #818FB4;
+    border-radius: 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#check{
+    display: flex;
+}
+
+#check div{
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+}
+
+#form p, #form label{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+button{
+    background-color: #363062;
+    width: 20%;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    
+}

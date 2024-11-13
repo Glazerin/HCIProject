@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+#navbar img{
+    width: 3.22875rem;
+    height: 4.375rem;
+}
+
+#navbar{
+   display: flex; 
+   padding: 0rem 4.375rem;
+   justify-content: space-between;
+   background-color: black;
+   align-items: center;
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 4.375rem;
+    align-items: center;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+#navbar a:hover{
+    color: #818FB4;
+}
+
+div div div img{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 20px;
+}
+

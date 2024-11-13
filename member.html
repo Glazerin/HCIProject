@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member</title>
+    <link rel="stylesheet" href="css/member.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar">
+        <img src="asset/logo_black.png" alt="Black Logo">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="member.html">Member</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <div id="form">
+        <p id="title">PRE - REGISTER</p>
+        <br>
+        <hr>
+        <br>
+        <label for="username">Username</label>
+        <input id="username" type="text" name="username">
+        <br>
+        <label for="password">Password</label>
+        <input id="password" type="text" name="password">
+        <br>
+        <label for="confirmpass">Confirm Password</label>
+        <input id="confirmpass" type="text" name="confirmpass">
+        <br>
+        <p>Gender</p>
+        <br>
+        <div id="check">
+            <div>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+            </div>
+            <div>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+            </div>
+        </div>
+        <br>
+        <label for="email">Email Address</label>
+        <input id="email" type="text" name="email">
+        <br>
+        <label for="address">Home Address</label>
+        <input id="address" type="text" name="address">
+        <br>
+        <br>
+        <div id="button">
+            <button type="submit" onclick="Validate()">Submit</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <script src="./js/member.js"></script>
+</body>
+<footer>
+    <p>Copyright ILKEA, 2023. All rights reserved.</p>
+</footer>
+</html>
